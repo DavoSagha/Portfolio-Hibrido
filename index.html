@@ -39,6 +39,7 @@
   <body>
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-md navbar-light">
+      
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -62,7 +63,7 @@
             class="navbar-nav d-flex justify-content-center align-items-center"
           >
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#sobre-mi"
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
                 >Sobre mí</a
               >
             </li>
@@ -72,12 +73,28 @@
             <li class="nav-item">
               <a class="nav-link" href="#container-contacto">Contacto</a>
             </li>
+            
           </ul>
+          
         </div>
+        
       </div>
+      
     </nav>
     <!-- Hero -->
     <section class="hero align-items-stretch">
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-globe"  > Idioma
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Inglés</a></li>
+          <li><a class="dropdown-item" href="#">Español</a></li>
+          <li><a class="dropdown-item" href="#">Francés</a></li>
+        </ul>
+      </div>
+          
       <div
         class="hero-principal d-flex flex-column justify-content-center align-items-center"
       >
@@ -86,107 +103,92 @@
           src="imagenes/davofacha.jpg"
           alt="Foto"
         />
-        <h1>Hola, soy <span>D</span>avid <span>S</span>aghatelyan</h1>
+        <h1>Hola, soy</h1>
+        <h1><span>D</span>avid <span>S</span>aghatelyan</h1>
         <h2>Desarrollador Web Trainee</h2>
         <div class="cv">
-            <a href="./Curriculum Vitae Davo.pdf" download="Doc PDF"
-              >Descarga mi CV <i class="bi bi-download"></i></a
-            >
-          </div>
+          <a href="./Curriculum-Davo.pdf" download="Doc PDF"
+            >Descarga mi CV <i class="bi bi-download"></i
+          ></a>
+        </div>
       </div>
     </section>
     <!-- Sobre mi -->
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
-            <div class="contenedor">
-              <h2 class="seccion-titulo">Conoce a David</h2>
-              <p class="seccion-texto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-                suscipit eaque esse consequuntur accusamus iusto illum sint porro
-                necessitatibus ea! Corporis pariatur nisi inventore ratione quod
-                quaerat eum veritatis ut?
-              </p>
-              <div class="row interes-nacimiento">
-                  
-                  <div class="intereses container col-12 col-md-6">
-                    <h3 class="seccion-subtitulo">Intereses</h3>
-                    <div class="row">
-                      <div class="col-4 col-md-3">
-                        <img 
-                        class="interes"
-                        src="./iconos/drone.png"
-                        alt="drone"
-                      />
-                      </div>
-                      
-                    <div class="col-4 col-md-3">
-                      <img
-                        class="interes"
-                        src="./iconos/bike.png"
-                        alt="bicicleta"
-                      />
-                    </div>
-                    <div class="col-4 col-md-3">
-                      <img
-                        class="interes "
-                        src="./iconos/montaña.png"
-                        alt="montaña"
-                      />
-                    </div>
-                    <div class="col-4 col-md-3">
-                      <img
-                        class="interes "
-                        src="./iconos/football.png"
-                        alt="football"
-                      />
-                    </div>
-                    <div class="col-4 col-md-3">
-                      <img
-                        class="interes"
-                        src="./iconos/musica.png"
-                        alt="musica"
-                      />
-                    </div>
-                  </div>
-                  
-                </div>
-                <div class="nacimiento col-12 col-md-6">
-                  <h3 class="seccion-subtitulo">Fecha de nacimiento</h3>
-                  <span>16/01/2003</span>
-                </div>
+      <!-- <i class="bi bi-pencil"></i> -->
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a David</h2>
+        <p class="seccion-texto">
+          Soy una persona enfocada, organizada, responsable y autodidacta, con
+          buenas relaciones interpersonales y constantes ganas de aprender.
+          Siempre tengo la mejor disposición para la realización de mis labores.
+          Busco un puesto de trabajo para ocupar mientras estudio.
+        </p>
+        <div class="row interes-nacimiento">
+          <div class="intereses container col-12 col-md-6">
+            <h3 class="seccion-subtitulo">Intereses</h3>
+            <div class="row">
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/drone.png" alt="drone" />
+              </div>
+
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/bike.png" alt="bicicleta" />
+              </div>
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/montaña.png" alt="montaña" />
+              </div>
+              <div class="col-4 col-md-3">
+                <img
+                  class="interes"
+                  src="./iconos/football.png"
+                  alt="football"
+                />
+              </div>
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/musica.png" alt="musica" />
               </div>
             </div>
+          </div>
+          <div class="nacimiento col-12 col-md-6">
+            <h3 class="seccion-subtitulo">Fecha de nacimiento</h3>
+            <span>16/01/2003</span>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Educacion  -->
     <section id="container-educacion">
+      <!-- <i class="bi bi-pencil"></i> -->
       <div class="gris">
         <h2 class="seccion-titulo">Educación</h2>
         <div class="row educacion">
           <div class="col-12 col-md-6 col-lg-4 instituto">
-            <!-- <img id="utn" src="./utn.jpg" alt="UTN" /> -->
-            <h3>Universidad tecnológica nacional</h3>
-            <span>Marzo 2021</span>
-            <span>Primer año de ingenieria en sistemas de la informacion.</span>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 instituto">
             <!--   <img id="arg" src="./argprograma.png" alt="Argentina Programa" /> -->
             <h3>Curso Argentina programa</h3>
-            <span>Octubre 2022</span>
+            <span>Octubre 2022</span><br />
             <span>Cursando #YoProgramo.</span>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 instituto">
+            <!-- <img id="utn" src="./utn.jpg" alt="UTN" /> -->
+            <h3>Universidad tecnológica nacional</h3>
+            <span>Marzo 2021</span><br />
+            <span>Primer año de ingenieria en sistemas de la informacion.</span>
           </div>
           <div class="col-12 col-md-6 col-lg-4 instituto">
             <!-- <img id="enslv" src="./enslv.jpg" alt="ENSLV" /> -->
             <h3>Escuela normal superior Lenguas Vivas</h3>
-            <span>Marzo 2015 - Enero 2021</span>
+            <span>Marzo 2015 - Enero 2021</span><br />
             <span>Bachiller en ciencias naturales.</span>
           </div>
         </div>
       </div>
-      
     </section>
     <!-- Contacto -->
     <section id="container-contacto">
+      <!-- <i class="bi bi-pencil"></i> -->
       <div class="contenedor-form">
-        <form action="" class="form">
+        <form action="https://formsubmit.co/saghatelyandsm@gmail.com" method="POST" class="form">
           <div class="form-header">
             <h2 class="form-title"><span>C</span>ontacto</h2>
           </div>
@@ -196,7 +198,7 @@
             class="form-input"
             id="nombre"
             placeholder="Escriba su nombre"
-            name=""
+            name="name"
           />
 
           <label for="email" class="form-label">Correo</label>
@@ -205,13 +207,14 @@
             class="form-input"
             id="email"
             placeholder="Escriba su mail"
+            name="email"
           />
 
           <label for="asunto" class="form-label">Asunto</label>
           <input
             type="text"
             class="form-input"
-            name=""
+            name="subjet"
             id="asunto"
             placeholder="Escriba el asunto"
           />
@@ -222,32 +225,47 @@
             id="mensaje"
             class="form-textarea"
             placeholder="Escriba su mensaje"
+            name="comments"
           ></textarea>
 
           <input type="submit" class="btn-submit" value="Enviar Consulta" />
         </form>
       </div>
     </section>
-     <!-- Pie de pagina -->
-     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-      <img class="footer-icono" src="logos/argprograma.png" alt="Logo de footer">
-      <p class="footer-texto text-center">Aprendo y creo todos los dias. <br>Creemos un proyecto juntos</p>
-      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-        <a href="twitter.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
-        <a href="twitter.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
-        <a href="twitter.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
+    <!-- Pie de pagina -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-icono"
+        src="logos/argprograma.png"
+        alt="Logo de footer"
+      />
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://www.linkedin.com/in/david-saghatelyan/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/DavoSagha"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-github"></i
+        ></a>
       </div>
       <div class="derechos-de-autor">
         Creado por David Saghatelyan (2022) &#169;
       </div>
     </footer>
 
-
-
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"
-      ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

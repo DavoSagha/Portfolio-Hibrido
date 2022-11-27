@@ -8,6 +8,11 @@
 }
 
 /* Estilos generales */
+
+.idioma{
+    margin: 0 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -73,6 +78,22 @@ h1{
     background-color: var(--grey-clair);
 }
 
+.bi-pencil{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        transition: all 0.2s ease-in;
+    }
+
+     i{
+       justify-content: flex-end;
+    }
 /* Barra de navegacion */
 
 .navbar{
@@ -105,6 +126,23 @@ h1{
     padding: 3rem;
     
 }
+
+.dropdown {
+    
+    text-decoration-style: none;
+    text-align: end;
+}
+
+.dropdown a{
+    list-style: georgian;
+    text-decoration-style: solid;
+    text-decoration: dashed;
+}
+
+.dropdown > a:hover{
+    background-color: var(--violet);
+}
+
 
 .hero-principal h1{
     color: var(--blanco);
@@ -197,28 +235,30 @@ h1{
     padding-bottom: 20px;
 }
 .educacion h3{
-    font-family: 'Chakra Petch', sans-serif;
     color: var(--blanco);
     font-weight: bold;
     font-size: 25px;
-}
-.educacion h3:hover{
-    color: var(--grey-obs);
+    
 }
 
 .educacion span{
-    color: var(--grey-obs);
+    color: var(--blanco);
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 .educacion{
     display: flex;
     padding: 30px;
+    
 }
 
 .instituto{
     flex-direction: column;
-    padding: 0px 20px;
-    display: flex;
+    padding: 10px 25px;
+    
+    
+   
 }
 
 /* SECCION FORMULARIO Y FOOTER */
@@ -242,6 +282,7 @@ h1{
     font-family: sans-serif;
     color: var(--blanco);
     text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .contenedor-form .form .form-header .form-title span{
@@ -250,7 +291,7 @@ h1{
 
 .contenedor-form .form {
     background: rgba(0, 0, 0, 0.7);
-    width: 40%;
+    width: 55%;
     max-width: 650px;
     margin: auto;
     padding: 5px 35px;
@@ -317,12 +358,6 @@ footer{
     margin: 10px;
 }
 
-.footer-texto{
-    font-size: 1.5rem;
-    padding: 20px;
-    margin-bottom: 30px;
-}
-
 .iconos-redes-sociales a{
     width: 50px;
     height: 50px;
@@ -343,12 +378,12 @@ footer{
 }
 
 .iconos-redes-sociales a:hover{
-    background-color: white;
-    border: 2px solid rgb(13,110, 253);
+    background-color: var(--violet);
+    border: 2px solid var(--blanco);
 }
 
 .iconos-redes-sociales a:hover i{
-    color: black;
+    color: var(--blanco);
 }
 
 .derechos-de-autor{
@@ -368,5 +403,16 @@ footer{
     .sobre-mi{
         height: 700px;
         padding: 30px;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .contenedor-form .form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767.98px){
+    .hero h1{
+        font-size: 2.1rem;
     }
 }
