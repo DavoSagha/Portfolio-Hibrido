@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="David Saghatelyan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de desarrollo web de David Saghatelyan"
+    />
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT" />
+    <!-- Titulo -->
+    <title>David Saghatelyan | Web Developer Trainee</title>
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="logos/argprograma.png" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Goolge font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light ">
+      
+      <div class="container-fluid ">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="logos/argprograma.png"
+              width="200px"
+              alt="Logo de la pagina web"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#container-educacion">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#container-contacto">Contact</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+        
+      </div>
+      
+      
+    </nav>
+    
+    <!-- Hero -->
+    <section class="hero align-items-stretch">
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-globe"  > Language
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="./index-eng.html"> <img src="./iconos/reino-unido.png" alt="" width="30px"> English</a></li>
+          <li><a class="dropdown-item" href="./index-es.html"><img src="./iconos/espana.png" alt="" width="30px"> Spanish</a></li>
+          <li><a class="dropdown-item" href="./index-fr.html"><img src="./iconos/francia.png" alt="" width="30px"> French</a></li>
+        </ul>
+      </div>
+          
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador"
+          src="imagenes/davofacha.jpg"
+          alt="Foto"
+        />
+        <h1>Hi, I am</h1>
+        <h1><span>D</span>avid <span>S</span>aghatelyan</h1>
+        <h2>Web Developer Trainee</h2>
+        <div class="cv">
+          <a href="./Curriculum-Davo.pdf" download="Doc PDF"
+            >Download my CV
+            <i class="bi bi-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <!-- <i class="bi bi-pencil"></i> -->
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Meet David
+        </h2>
+        <p class="seccion-texto">
+          I am a focused, organized, responsible and self-taught person, with
+          good interpersonal relationships and constant desire to learn.
+          I always have the best disposition to carry out my work.
+          I am looking for a job to fill while I study.
+        </p>
+        <div class="row interes-nacimiento">
+          <div class="intereses container col-12 col-md-6">
+            <h3 class="seccion-subtitulo">Interests</h3>
+            <div class="row">
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/drone.png" alt="drone" />
+              </div>
+
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/bike.png" alt="bicicleta" />
+              </div>
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/montaña.png" alt="montaña" />
+              </div>
+              <div class="col-4 col-md-3">
+                <img
+                  class="interes"
+                  src="./iconos/football.png"
+                  alt="football"
+                />
+              </div>
+              <div class="col-4 col-md-3">
+                <img class="interes" src="./iconos/musica.png" alt="musica" />
+              </div>
+            </div>
+          </div>
+          <div class="nacimiento col-12 col-md-6">
+            <h3 class="seccion-subtitulo">Date of Birth
+            </h3>
+            <span>16/01/2003</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Educacion  -->
+    <section id="container-educacion">
+      <!-- <i class="bi bi-pencil"></i> -->
+      <div class="gris">
+        <h2 class="seccion-titulo">Education</h2>
+        <div class="row educacion">
+          <div class="col-12 col-md-6 col-lg-4 instituto">
+            <!--   <img id="arg" src="./argprograma.png" alt="Argentina Programa" /> -->
+            <h3>Argentina course program
+            </h3>
+            <span>October
+              2022</span><br />
+            <span>Studying #YoProgramo.</span>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 instituto">
+            <!-- <img id="utn" src="./utn.jpg" alt="UTN" /> -->
+            <h3>National Technological University</h3>
+            <span>March 2021</span><br />
+            <span>First year of engineering in information systems.
+            </span>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 instituto">
+            <!-- <img id="enslv" src="./enslv.jpg" alt="ENSLV" /> -->
+            <h3>Higher Normal School Living Languages
+            </h3>
+            <span>March 2015 - January 2021</span><br />
+            <span>Bachelor of Natural Sciences.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacto -->
+    <section id="container-contacto">
+      <!-- <i class="bi bi-pencil"></i> -->
+      <div class="contenedor-form">
+        <form action="https://formsubmit.co/saghatelyandsm@gmail.com" method="POST" class="form">
+          <div class="form-header">
+            <h2 class="form-title"><span>C</span>ontact</h2>
+          </div>
+          <label for="nombre" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-input"
+            id="nombre"
+            placeholder="Escriba su nombre"
+            name="name"
+          />
+
+          <label for="email" class="form-label">Mail</label>
+          <input
+            type="email"
+            class="form-input"
+            id="email"
+            placeholder="Escriba su mail"
+            name="email"
+          />
+
+          <label for="asunto" class="form-label">Subjet</label>
+          <input
+            type="text"
+            class="form-input"
+            name="subjet"
+            id="asunto"
+            placeholder="Escriba el asunto"
+          />
+
+          <label for="mensaje" class="form-label">Messaje</label>
+          <textarea
+            name=""
+            id="mensaje"
+            class="form-textarea"
+            placeholder="Escriba su mensaje"
+            name="comments"
+          ></textarea>
+
+          <input type="submit" class="btn-submit" value="Send Consult" />
+        </form>
+      </div>
+    </section>
+    <!-- Pie de pagina -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-icono"
+        src="logos/argprograma.png"
+        alt="Logo de footer"
+      />
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://www.linkedin.com/in/david-saghatelyan/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/DavoSagha"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-github"></i
+        ></a>
+      </div>
+      <div class="derechos-de-autor">
+        Created by David Saghatelyan (2022) &#169;
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

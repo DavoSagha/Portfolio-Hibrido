@@ -9,6 +9,13 @@
 
 /* Estilos generales */
 
+body::after {
+    content: none !important;
+     }
+     body ::before {
+     content: none !important;
+     }
+
 .idioma{
     margin: 0 0;
 }
@@ -94,11 +101,15 @@ h1{
      i{
        justify-content: flex-end;
     }
+
+   
+
 /* Barra de navegacion */
 
 .navbar{
     padding: 2rem;
     background-color: var(--grey-clair);
+    display: flex;
 }
 
 .navbar-collapse{
@@ -128,9 +139,10 @@ h1{
 }
 
 .dropdown {
-    
     text-decoration-style: none;
     text-align: end;
+    font-style: none;
+    margin: 1rem;
 }
 
 .dropdown a{
@@ -143,7 +155,9 @@ h1{
     background-color: var(--violet);
 }
 
-
+.dropdown-menu{
+    width: 20%;
+}
 .hero-principal h1{
     color: var(--blanco);
 }
@@ -306,6 +320,8 @@ h1{
     font-size: 16px;
     font-family: Roboto;
     position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
@@ -371,10 +387,11 @@ footer{
     transition: all 0.2s ease-in;
 }
 
-.iconos-redes-sociales i{
+.iconos-redes-sociales img{
     color: white;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
+    content: icon;
 }
 
 .iconos-redes-sociales a:hover{
@@ -382,7 +399,7 @@ footer{
     border: 2px solid var(--blanco);
 }
 
-.iconos-redes-sociales a:hover i{
+.iconos-redes-sociales a:hover img{
     color: var(--blanco);
 }
 
@@ -401,7 +418,7 @@ footer{
 
 @media screen and (max-width: 767.98px){
     .sobre-mi{
-        height: 700px;
+        height: 100%;
         padding: 30px;
     }
 }
@@ -416,3 +433,5 @@ footer{
         font-size: 2.1rem;
     }
 }
+
+    
