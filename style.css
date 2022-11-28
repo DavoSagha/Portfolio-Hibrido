@@ -143,12 +143,21 @@ h1{
     text-align: end;
     font-style: none;
     margin: 1rem;
+    align-items: center;
 }
 
 .dropdown a{
     list-style: georgian;
     text-decoration-style: solid;
     text-decoration: dashed;
+    margin: 0;
+}
+
+.dropdown img{
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    padding: 0;
 }
 
 .dropdown > a:hover{
@@ -158,6 +167,7 @@ h1{
 .dropdown-menu{
     width: 20%;
 }
+
 .hero-principal h1{
     color: var(--blanco);
 }
