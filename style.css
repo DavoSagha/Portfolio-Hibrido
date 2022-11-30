@@ -150,14 +150,14 @@ h1{
     list-style: georgian;
     text-decoration-style: solid;
     text-decoration: dashed;
-    margin: 0;
+    align-items: center;
 }
 
 .dropdown img{
     margin: 0;
     align-items: center;
     text-align: center;
-    padding: 0;
+    padding-bottom: 4px;
 }
 
 .dropdown > a:hover{
@@ -177,8 +177,8 @@ h1{
 }
 
 .hero-imagen-desarrollador{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin: 20px;
 }
@@ -335,12 +335,12 @@ h1{
 
 .contenedor-form .form .form-label{
     display: block;
-    color: var(--violet);
+    color: var(--blanco);
     font-size: 16px;
     font-family: Roboto;
     position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.1rem;
+    
 }
 
 
